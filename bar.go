@@ -1,4 +1,4 @@
-package bar
+package shelper
 
 import (
     "fmt"
