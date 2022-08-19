@@ -17,7 +17,7 @@ type Pool struct {
 
 var poolInstance *Pool
 
-func GetInstance() *Pool {
+func GetPoolInstance() *Pool {
 	if nil == poolInstance {
 		poolInstance = NewPool()
 		log.Println("任务池已启动")
